@@ -78,7 +78,7 @@ public class TRManager {
     }
     
     private var _isCompleted: Bool = false
-    private var isCompleted: Bool {
+    public var isCompleted: Bool {
         get {
             return queue.sync {
                 _isCompleted
